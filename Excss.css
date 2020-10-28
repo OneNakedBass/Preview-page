@@ -1,0 +1,145 @@
+.top-navbar {
+  position: relative; 
+  top: 10px;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}
+
+.top-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+  padding-right: 7px;
+  padding-left: 7px;
+  line-height: 24px;
+  outline: none;
+  vertical-align: middle;
+}
+
+.top-right a:hover {
+  text-decoration: underline;
+}
+
+.top-right {
+  float: right;
+  margin: 7px 40px 0px 0px;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 190px;
+}
+  
+#searchbarcontainer {
+  text-align: center;
+  margin-top: 23px;
+}
+  
+#searchbar {
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border: 1px solid #d4d4d2;
+  outline: 0;
+  width: 538px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#searchbar:hover {
+  border: 1px solid gray;
+}
+  
+#buttons {
+  text-align: center;
+  margin-top: 27px;
+}
+  
+.button {
+  background-color: #f2f2f2;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #5F6368;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.button:hover {
+  border: 1px solid gray;
+}
+
+.offered {
+  margin-top: 25px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+.offered a {
+  text-decoration: none;
+  color: blue;
+}
+
+.offered a:hover {
+  text-decoration: underline;
+}
+
+#bottom-navbar {
+  display: block;
+  text-align: left;
+  width: 100%;
+  height: 80px;
+  background-color: #F2F2F2;
+  border-top: 1px solid #e4e4e4;
+  color: #646464;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0px;
+  
+}
+   
+.bottom {
+  display: flex;
+  position: bottom;
+  border-top: 1px solid #e4e4e4;
+  border-top-width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+  border-bottom-width: 100%;
+  height: 20px;
+  text-justify: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.bottom2 {
+  display: inline-block;
+  border-top: 1px solid #e4e4e4;
+  border-top-width: 100%;
+  height: 20px;
+  text-justify: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottom2 a {
+  text-decoration: none;
+  color: #646464;
+  padding-right: 20px;
+}
+
+.bottom2 a:hover {
+  text-decoration: underline;
+}
