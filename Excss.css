@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .top-navbar {
   position: relative; 
   top: 10px;
